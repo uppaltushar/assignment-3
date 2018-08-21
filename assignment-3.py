@@ -71,3 +71,47 @@ z=0
             z=z+1
 print(v)
 print(z)
+
+
+#TUPLES
+
+#1
+a=(1,2,3,4)
+print(a[::-1])
+
+
+#2
+a=(1,2,3,4)
+print("Largest element is =",max(a))
+print("Smallest element is =",min(a))
+
+
+
+
+#STRINGS
+
+#1
+str1='abc'
+s1=str1.upper()
+print(s1)
+
+
+#2
+str2='12345'
+str4='12abc'
+str3=str2.isdigit()
+str5=str4.isdigit()
+print(str3)
+print(str5)
+
+
+#3
+s6='hello world'
+s7=s6.replace('world','tushar')
+print(s7)
+
+
+
+
+
+
